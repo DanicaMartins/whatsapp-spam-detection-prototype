@@ -1,0 +1,15 @@
+{
+  "name": "spam-detection",
+  "version": "1.0.0",
+  "description": "Spam detection app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danica",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}

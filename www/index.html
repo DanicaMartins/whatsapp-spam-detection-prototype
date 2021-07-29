@@ -1,0 +1,139 @@
+<!-- Import TensorFlow.js library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" type="text/javascript"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spam dectection chat app</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>  
+  <body>
+    <div id = sidescreen>
+      <div id = head>
+        <img src="user-01.png" alt="">
+        <p>Danica Martins</p>
+      </div>
+      <input type="text" placeholder="Search or start a new chat" name="search">
+      <ul id="chats">
+        <li>
+          <span class="username">Mom</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>Come home safe.</p>
+        </li>
+        <li>
+          <span class="username">Group Chat</span>
+          <span class="timestamp">2/11/2021, 3:10:00 PM</span>
+          <p>Wow, I love this video, so many amazing demos!</p>
+        </li>
+        <li>
+          <span class="username">+12345678</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>Hi.</p>
+        </li>
+        <li>
+          <span class="username">SomeUser</span>
+          <span class="timestamp">2/11/2021, 3:10:00 PM</span>
+          <p>Wow</p>
+        </li>
+        <li>
+          <span class="username">Amy</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>Thank you.</p>
+        </li>
+        <li>
+          <span class="username">SomeUser</span>
+          <span class="timestamp">2/11/2021, 3:10:00 PM</span>
+          <p>bye!</p>
+        </li>
+        <li>
+          <span class="username">Jay</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>Alright,see you.</p>
+        </li>
+        <li>
+          <span class="username">Riya</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>Alright,see you.</p>
+        </li>
+      </ul>
+      
+    </div>
+
+        </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+    <div id = "mainscreen">
+
+    <header>
+      <img id="groupic" src="Group.jpg" alt="">
+     
+      <h1>Class Recordings and Video Demos</h1>
+      <h2>Group Chat</h2>
+    
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <p>Spam Dectection</p>
+      
+      <img src="headericon.jpg" alt="">
+      <!--<a id="login" href="#">Login</a>-->
+    </header>
+
+
+
+
+    <section id="comments" class="comments">
+      
+
+      <ul id="commentsList">
+        <li>
+          <span class="username">Rahul</span>
+          <span class="timestamp">3/18/2021, 6:52:16 PM</span> 
+          <p>I cant see the recordings for yesterday's class.</p>
+        </li>
+        <li>
+          <span class="username">+918234567</span>
+          <span class="timestamp">2/11/2021, 3:10:00 PM</span>
+          <p>Wow, I love this video, so many amazing demos!</p>
+        </li>
+      </ul>
+
+      <div id ="commentmain">
+      <div id="comment" class="comment" contenteditable ></div>
+      <button id="post" type="button">Send</button> 
+      </div>
+
+      </section>
+
+
+      
+    </div>
+
+
+
+
+
+
+
+    <!-- Import TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" type="text/javascript"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Import the page's JavaScript to do some stuff -->
+    <script type="module" src="/script.js"></script>
+
+
+
+    
+  </body>
+</html>
