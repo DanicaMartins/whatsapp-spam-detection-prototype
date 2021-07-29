@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+input:focus{
+  outline: none;
+}
+
 /* CSS files add styling rules to your content */
 body {
   background-image: url(bg.jpg);
@@ -19,6 +23,10 @@ header {
   overflow: hidden;
   width: 70vw;
   margin-left: auto;
+}
+
+header h1,header h2{
+  font-weight: normal!important;
 }
 
 h1 {
@@ -123,9 +131,14 @@ button:focus, button:hover, header a:hover {
   display: flex;
   width: 50vw;
   margin-top: 20px;
+  padding-left:20px ;
+  padding-top: 10px;
 
 }
-
+.comment:focus{
+  border: none;
+  outline: none;
+}
 .comments button {
   margin-left: 30px;
   margin: 15px 10px;
@@ -248,7 +261,7 @@ width:100%
   font-size: 20pt;
   position: absolute;
   display: inline;
-  margin-top: 40px;
+  margin-top: 30px;
 
 
 }
